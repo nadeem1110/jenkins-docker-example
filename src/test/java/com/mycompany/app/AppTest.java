@@ -1,13 +1,20 @@
-package com.javatechie;
+package com.mycompany.app;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import static org.junit.Assert.assertTrue;
 
-@SpringBootTest
-class DevopsIntegrationApplicationTests {
+import org.junit.Test;
 
-	@Test
-	void contextLoads() {
-	}
-
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
+    /**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void shouldAnswerWithTrue()
+    {
+        assertTrue( true );
+    }
 }
